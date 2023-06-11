@@ -1,0 +1,559 @@
+@media (min-width: 481px) and (max-width: 768px) {
+  
+
+    #menu{
+        display: none;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background-color: white;
+    }
+
+    #menu:hover{
+        display: block;
+    }
+
+    #menu li{
+        
+        line-height: 5px;
+    }
+
+    #drop-down-list{
+        position: absolute;
+        right: 50%;
+    }
+
+    #deep-dd-list{
+        position: absolute;
+        top: 0;
+    }
+
+    #menu li a{
+        color: black;
+    }
+
+    #nav-bar{
+        display: inline;
+        font-size: 30px;
+        color: white;
+        padding: 14px;
+    }
+
+    nav{
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        justify-content: space-around;
+        height: 60px;
+    }
+
+    nav button{
+        margin-left: 400px;
+    }
+
+    #nav-bar:hover~ul{
+       display: block;
+       flex-direction: row;
+    }
+
+    .flex{
+        flex-direction: row-reverse;
+        position: relative;
+    }
+
+    /* ------------------------header--------------------------- */
+
+    header{
+        padding-top: 20vh;
+    }
+
+    #home h1{
+        font-size: 2rem;
+        font-weight: 900;
+        line-height: 40px;
+        margin-bottom: 5px;
+    }
+
+    #home p{
+        font-size: 1.3rem;
+    }
+
+    /* -------------------------section--------------------- */
+
+    #about{
+        flex-direction: column-reverse;
+    }
+
+    /* ----------------------clients------------------------ */
+
+    .clients{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        column-gap: 15px;
+    }
+
+    .clients img{
+        width: 100%;
+        height: 50px;
+    }
+
+/* -----------------------services----------------------- */
+
+    .sub-service{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+/* ------------------------portfolio--------------------- */
+
+.port-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.port-main img{
+    width: 85vw;
+    transition: all .3s ease-in-out;
+}
+
+.images{
+    margin-bottom: 40px;
+}
+
+.image1 h3{
+    padding-top: 500px;
+}
+
+.image2 h3{
+    padding-top: 790px;
+}
+
+.image3 h3{
+    padding-top: 290px;
+}
+
+.image4 h3{
+    padding-top: 240px;
+}
+
+
+/* --------------------------voluptatem---------------------- */
+
+    .volu{
+        flex-direction: column;
+    }
+
+    .volu img{
+        width: 100%;
+    }
+
+    .sub-div{
+        width: 100%;
+        padding-left: 0;
+    }
+
+/* -----------team---------------------------- */
+
+
+
+
+
+
+
+/* ----------contact------------------------------ */
+
+.contact-info{
+    width: 100%;
+}
+
+.contact-form{
+    width: 100%;
+}
+
+input[type="name"]{
+    width: 48.8%;
+   
+}
+
+input[type="email"]{
+    width: 48.9%;
+   
+}
+
+#form-btn{
+    margin-left: 35%;
+}
+
+/* ----------footer-------------------------------- */
+
+.footer{
+    display: grid;
+    grid-template-columns: auto auto;   
+    justify-content: space-between;
+}
+
+.plato-address{
+    width: 100%;  
+}
+
+.our-social-networks form{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.our-social-networks{
+    text-align: left;
+    width: 100%;
+}
+
+   
+}
+
+/*============================================================
+==============================================================*/
+
+@media only screen and (max-width: 480px) {
+   
+   
+   
+    #menu{
+        display: none;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        width: 100%;
+        background-color: white;
+    }
+
+    #menu:hover{
+        display: block;
+    }
+
+    #menu li{
+        width: 100%;
+        line-height: 5px;
+    }
+
+    #drop-down-list{
+        position: absolute;
+        right: 0;
+        top: 330px;
+        width: 100%;
+    }
+
+    #deep-dd-list{
+        position: absolute;
+        left: 0;
+        top: 110px;
+        width: 100%;
+    }
+
+    #menu li a{
+        color: black;
+    }
+
+    #nav-bar{
+        display: inline-block;
+        font-size: 30px;
+        color: white;
+        padding: 14px;
+        margin-top: -30px;
+    }
+
+    nav{
+        width: 100%;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        justify-content: space-around;
+        height: 60px;
+        padding: 30px;
+    }
+
+    nav button{
+        margin-left: 0px;
+    }
+
+    #nav-bar:hover~ul{
+       display: block;
+       flex-direction: row;
+    }
+
+    .flex{
+        flex-direction: row-reverse;
+        position: relative;
+    }
+
+    .br{
+        display: block;
+    }
+
+    
+
+    /* ------------------------header--------------------------- */
+
+    #home{
+        height: 100%;
+        padding: 30px;
+    }
+
+    #top-boxs{
+        flex-direction: column;
+    }
+
+    .boxs{
+        width: 100%;
+    }
+
+    
+
+    .br{
+        display: block;
+    }
+
+    #home h1{
+        font-size: 2rem;
+        font-weight: 900;
+        line-height: 40px;
+        margin-bottom: 5px;
+        margin-top: 70px;
+    }
+
+    #home p{
+        font-size: 1.3rem;
+        margin-bottom: -50px;
+    }
+
+    /* -------------------------section--------------------- */
+
+    .section{
+        padding: 30px;
+        width: 100%;
+    }
+
+    .section1{
+        width: 100%;
+    }
+
+    .section2 img{
+        width: 100%;
+    }
+
+    #done{
+        float: left;
+        margin-bottom: 60px;
+    }
+
+    #done1{
+        float: left;
+        margin-bottom: 30px;
+    }
+
+    #about{
+        flex-direction: column-reverse;
+    }
+
+    /* ----------------------clients------------------------ */
+
+    .clients{
+        padding: 30px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        column-gap: 15px;
+    }
+
+    .clients img{
+        width: 100%;
+        height: 30px;
+    }
+
+/*-------------------typng--------------------------  */
+
+.typing{
+    padding: 30px;
+}
+
+.typing-img img{
+    width: 100%;
+    height: 300px;
+}
+
+/* -----------------------services----------------------- */
+
+    .services{
+        padding: 30px;
+    }
+
+    .sub-service{
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+
+/* -------------------call-to-action-------------------- */
+
+.call{
+    padding: 30px;
+}
+
+/* ------------------------portfolio--------------------- */
+
+.portfolio{
+    padding: 30px;
+}
+
+.port-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.port-main img{
+    width: 85vw;
+    transition: all .3s ease-in-out;
+}
+
+.images{
+    margin-bottom: 40px;
+}
+
+.image1 h3{
+    padding-top: 500px;
+}
+
+.image2 h3{
+    padding-top: 790px;
+}
+
+.image3 h3{
+    padding-top: 290px;
+}
+
+.image4 h3{
+    padding-top: 240px;
+}
+
+
+/* --------------------------voluptatem---------------------- */
+
+    .volu{
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .volu img{
+        width: 100%;
+        height: 400px;
+    }
+
+    .sub-div{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .deep-sub-div{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .deep-sub-div div span{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+/* -----------testimonials---------------------------- */
+
+.testimonials{
+    padding: 30px;
+}
+
+/* -----------team----------------------------------- */
+
+.team{
+    padding: 30px;
+}
+
+.pics img{
+    width: 100%;
+
+}
+
+
+
+/* ----------contact------------------------------ */
+
+.contact{
+    padding: 30px;
+}
+
+.contact-info{
+    width: 100%;
+}
+
+.contact-form{
+    width: 100%;
+}
+
+.contact h1{
+    padding-bottom: 20px;
+}
+
+input[type="name"]{
+    width: 48%;
+   
+}
+
+input[type="email"]{
+    width: 48.3%;
+   
+}
+
+#form-btn{
+    margin-left: 30%;
+}
+
+/* ----------footer-------------------------------- */
+
+.footer{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.plato-address{
+    width: 100%;  
+}
+
+.our-social-networks{
+    text-align: left;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.our-social-networks input[type="email"]{
+    width: 100%;
+}
+
+.our-social-networks button{
+    margin-left: 0px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.plato-address, .useful-links, .our-service{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.copyright{
+    padding: 30px;
+}
+   
+}
